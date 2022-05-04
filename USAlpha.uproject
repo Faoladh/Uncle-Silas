@@ -13,17 +13,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OpenXR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux",
-				"Android",
-				"HoloLens"
-			]
-		},
-		{
 			"Name": "SteamVR",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
@@ -33,11 +22,13 @@
 			]
 		},
 		{
-			"Name": "OculusOpenXR",
-			"Enabled": true,
+			"Name": "OpenXRHandTracking",
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
+				"Linux",
+				"HoloLens",
 				"Android"
 			]
 		}
